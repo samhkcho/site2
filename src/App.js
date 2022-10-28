@@ -24,7 +24,7 @@ export default function App() {
             parent route elements. See the note about <Outlet> below. */}
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
 
@@ -32,7 +32,7 @@ export default function App() {
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
         </Route>
-        <Route index element={<Home />} />
+        <Route element={<Home />} />
       </Routes>
     </div>
   );
