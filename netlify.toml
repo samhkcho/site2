@@ -1,4 +1,4 @@
 [[redirects]]
   from = "*"
-  to = "https://css-tricks.com/beta/:splat"
+  to = "https://css-tricks.com"
   status = 200
