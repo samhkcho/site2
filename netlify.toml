@@ -1,23 +1,5 @@
 [[redirects]]
-  from = "/about"
-  to = "/index.html"
-  status = 200
-  force = false
-
-[[redirects]]
-  from = "/dashboard"
-  to = "/index.html"
-  status = 200
-  force = false
-
-[[redirects]]
-  from = "/beta/*"
-  to = "https://css-tricks.com/:splat"
-  status = 200
-  force = false
-
-[[redirects]]
   from = "*"
-  to = "/index.html"
+  to = "https://dulcet-chebakia-ab7c53.netlify.app/:splat"
   status = 200
   force = false
