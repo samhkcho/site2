@@ -2,6 +2,6 @@
   publish = 'dist'
 
 [[redirects]]
-  from = "*"
+  from = "/dulcet"
   to = "https://dulcet-chebakia-ab7c53.netlify.app/:splat"
   status = 200
