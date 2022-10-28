@@ -1,2 +1,3 @@
 # http and https need separate rules if you don’t force_ssl!
 https://friendly-dasik-a8ea42.netlify.app/beta/* https://nimble-trifle-f2587c.netlify.app/beta/:splat 301!
+/* /index.html 200
