@@ -1,19 +1,19 @@
 import * as React from 'react';
-import { Routes, Route, Outlet, Link, useNavigate } from 'react-router-dom';
+import { Routes, Route, Outlet, Link } from 'react-router-dom';
 import './App.css';
 
 export default function App() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  React.useEffect(() => {
-    console.log('hit');
-    // eslint-disable-next-line no-restricted-globals
-    if (location.pathname.includes('beta')) {
-      navigate('/beta');
-      // eslint-disable-next-line no-restricted-globals
-      location.assign('/beta');
-    }
-  }, [navigate]);
+  // React.useEffect(() => {
+  //   console.log('hit');
+  //   // eslint-disable-next-line no-restricted-globals
+  //   if (location.pathname.includes('beta')) {
+  //     navigate('/beta');
+  //     // eslint-disable-next-line no-restricted-globals
+  //     location.assign('/beta');
+  //   }
+  // }, [navigate]);
 
   return (
     <div>
@@ -79,7 +79,9 @@ function Layout() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/beta">Beta Site</Link>
+            <Link to="/beta" reloadDocument>
+              Beta Site
+            </Link>
           </li>
           <li>
             <Link to="/nothing-here">Nothing Here</Link>
@@ -113,7 +115,9 @@ function Home() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/beta">Beta Site</Link>
+            <Link to="/beta" reloadDocument>
+              Beta Site
+            </Link>
           </li>
           <li>
             <Link to="/nothing-here">Nothing Here</Link>
