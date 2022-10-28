@@ -12,7 +12,7 @@
 
 [[redirects]]
   from = "/beta/*"
-  to = "https://css-tricks.com/:splat"
+  to = "https://dulcet-chebakia-ab7c53.netlify.app/:splat"
   status = 200
   force = false
 
