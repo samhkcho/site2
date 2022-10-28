@@ -1,2 +1,2 @@
 # http and https need separate rules if you don’t force_ssl!
-https://cat-prod.netlify.app/beta/* https://cat-beta.netlify.app/beta/:splat 301!
+https://friendly-dasik-a8ea42.netlify.app/beta/* https://nimble-trifle-f2587c.netlify.app/beta/:splat 301!
