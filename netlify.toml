@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/duclet"
-  to = "https://dulcet-chebakia-ab7c53.netlify.app/:splat"
+  to = "https://dulcet-chebakia-ab7c53.netlify.app/"
   status = 200
   force = true
 
