@@ -6,9 +6,12 @@ export default function App() {
   const navigate = useNavigate();
 
   React.useEffect(() => {
+    console.log('hit');
     // eslint-disable-next-line no-restricted-globals
     if (location.pathname.includes('beta')) {
       navigate('/beta');
+      // eslint-disable-next-line no-restricted-globals
+      location.assign('/beta');
     }
   }, [navigate]);
 
