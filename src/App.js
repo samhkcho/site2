@@ -27,13 +27,12 @@ export default function App() {
           <Route element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="dashboard" element={<Dashboard />} />
-          <Route path="*" element={<NoMatch />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
         </Route>
-        {/* <Route element={<Home />} /> */}
+        <Route path="*" element={<NoMatch />} />
       </Routes>
     </div>
   );
