@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
-/home              /
-/blog/my-post.php  /blog/my-post
-/news              /blog
-/cuties            https://www.petsofnetlify.com
+/home              https://dulcet-chebakia-ab7c53.netlify.app/ 200!
+/blog/my-post.php  https://dulcet-chebakia-ab7c53.netlify.app/ 200!
+/news              https://dulcet-chebakia-ab7c53.netlify.app/ 200!
+/cuties            https://dulcet-chebakia-ab7c53.netlify.app/ 200!
