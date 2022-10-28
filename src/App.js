@@ -32,7 +32,7 @@ export default function App() {
                 acts like a catch-all for URLs that we don't have explicit
                 routes for. */}
         </Route>
-        <Route element={<Home />} />
+        {/* <Route element={<Home />} /> */}
       </Routes>
     </div>
   );
