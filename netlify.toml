@@ -2,10 +2,8 @@
   from = "/duclet"
   to = "https://dulcet-chebakia-ab7c53.netlify.app/"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = false
