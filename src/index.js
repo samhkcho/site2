@@ -7,7 +7,7 @@ const router = createBrowserRouter([
     path: '/',
     element: (
       <div>
-        <h1>Hello World</h1>
+        <h1 style={{ color: 'green' }}>PRODUCTION: Hello World</h1>
         <Link to="about">About Us</Link>
       </div>
     ),
