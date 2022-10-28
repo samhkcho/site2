@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "*"
-  to = "https://dulcet-chebakia-ab7c53.netlify.app/:splat"
+  from = "/beta/*"
+  to = "https://dulcet-chebakia-ab7c53.netlify.app/beta/:splat"
   status = 200
   force = false
