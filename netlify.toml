@@ -2,6 +2,7 @@
   from = "/duclet"
   to = "https://dulcet-chebakia-ab7c53.netlify.app/:splat"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
