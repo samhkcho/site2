@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/beta/*"
+    to = "https://incredible-kitsune-63b6f3.netlify.app/:splat"
+    status = 200
+    headers = {Link = '<https://verdant-raindrop-315446.netlify.app/>; rel="canonical"'}

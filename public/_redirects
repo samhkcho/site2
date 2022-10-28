@@ -1,2 +1,0 @@
-# http and https need separate rules if you don’t force_ssl!
-/beta/* https://incredible-kitsune-63b6f3.netlify.app/blog/:splat 200!
