@@ -79,7 +79,9 @@ function Layout() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/beta">Beta Site</Link>
+            <Link to="/beta" reloadDocument>
+              Beta Site
+            </Link>
           </li>
           <li>
             <Link to="/nothing-here">Nothing Here</Link>
@@ -113,7 +115,9 @@ function Home() {
             <Link to="/dashboard">Dashboard</Link>
           </li>
           <li>
-            <Link to="/beta">Beta Site</Link>
+            <Link to="/beta" reloadDocument>
+              Beta Site
+            </Link>
           </li>
           <li>
             <Link to="/nothing-here">Nothing Here</Link>
