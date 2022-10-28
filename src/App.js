@@ -1,8 +1,17 @@
 import * as React from 'react';
-import { Routes, Route, Outlet, Link } from 'react-router-dom';
+import { Routes, Route, Outlet, Link, useNavigate } from 'react-router-dom';
 import './App.css';
 
 export default function App() {
+  const navigate = useNavigate();
+
+  React.useEffect(() => {
+    // eslint-disable-next-line no-restricted-globals
+    if (location.pathname.includes('beta')) {
+      navigate('/beta');
+    }
+  }, [navigate]);
+
   return (
     <div>
       <h1 style={{ color: 'green' }}>PROD SITE</h1>
